@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rudraksh Trivedi | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .hover-underline:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <!-- Navbar -->
+    <nav class="bg-blue-600 p-4 text-white flex justify-between items-center">
+        <div class="text-xl font-bold">Rudraksh Trivedi</div>
+        <div>
+            <a href="#about" class="mx-2 hover-underline">About</a>
+            <a href="#projects" class="mx-2 hover-underline">Projects</a>
+            <a href="#contact" class="mx-2 hover-underline">Contact</a>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section class="text-center py-20 bg-blue-500 text-white">
+        <h1 class="text-5xl font-bold">Welcome to My Portfolio</h1>
+        <p class="text-lg mt-3">A developer learning Web and Game Development</p>
+        <a href="#projects" class="mt-5 inline-block bg-white text-blue-600 px-6 py-2 rounded font-bold">View My Work</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container mx-auto text-center py-10">
+        <h2 class="text-3xl font-bold">About Me</h2>
+        <p class="text-gray-700 mt-3 max-w-2xl mx-auto">I am Rudraksh Trivedi, a developer passionate about learning web and game development. I can code in Python, C, C++, C#, Java, HTML, CSS, JavaScript, and SQL.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="container mx-auto text-center py-10">
+        <h2 class="text-3xl font-bold">Skills</h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6">
+            <div class="bg-white shadow-md p-5 rounded-lg">Python</div>
+            <div class="bg-white shadow-md p-5 rounded-lg">C</div>
+            <div class="bg-white shadow-md p-5 rounded-lg">C++</div>
+            <div class="bg-white shadow-md p-5 rounded-lg">C#</div>
+            <div class="bg-white shadow-md p-5 rounded-lg">Java</div>
+            <div class="bg-white shadow-md p-5 rounded-lg">HTML, CSS, JS</div>
+            <div class="bg-white shadow-md p-5 rounded-lg">SQL</div>
+            <div class="bg-white shadow-md p-5 rounded-lg">Unity Development</div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container mx-auto text-center py-10">
+        <h2 class="text-3xl font-bold">Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
+            <div class="bg-white shadow-md p-5 rounded-lg">
+                <h3 class="text-xl font-bold">Flappy Bird (Unity)</h3>
+                <p class="text-gray-600">A remake of the popular game Flappy Bird using Unity and C#.</p>
+            </div>
+            <div class="bg-white shadow-md p-5 rounded-lg">
+                <h3 class="text-xl font-bold">Chess Game (Python)</h3>
+                <p class="text-gray-600">A fully functional chess game built using Python.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container mx-auto text-center py-10">
+        <h2 class="text-3xl font-bold">Contact Me</h2>
+        <form class="mt-6 max-w-lg mx-auto">
+            <input type="text" placeholder="Your Name" class="w-full p-2 border border-gray-300 rounded mb-4">
+            <input type="email" placeholder="Your Email" class="w-full p-2 border border-gray-300 rounded mb-4">
+            <textarea placeholder="Your Message" class="w-full p-2 border border-gray-300 rounded mb-4"></textarea>
+            <button class="bg-blue-600 text-white px-6 py-2 rounded">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center p-5 bg-blue-600 text-white mt-10">
+        &copy; 2025 Rudraksh Trivedi | Follow me on <a href="#" class="underline">GitHub</a>
+    </footer>
+</body>
+</html>
